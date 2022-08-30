@@ -11,14 +11,18 @@
 }
 
 .input {
-    @apply w-full rounded-md border focus:outline-none focus-within:ring-2 ring-veryDarkViolet transition py-2 px-3 placeholder:text-lightviolet font-semibold;
+    @apply w-full rounded-md border capitalize focus:outline-none focus-within:ring-2 ring-veryDarkViolet transition py-2 px-3 placeholder:text-lightviolet font-semibold;
 }
 
 
 .label {
-    @apply font-bold text-xs uppercase text-veryDarkViolet;
+    @apply font-bold text-xs uppercase tracking-wider text-veryDarkViolet;
 }
 
 .inputContainer {
     @apply flex flex-col gap-2 p-2 rounded-sm;
+}
+
+.error{
+    @apply hidden peer-invalid:flex transition text-xs text-red-500;
 }
