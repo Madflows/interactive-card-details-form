@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="font-bold text-3xl">Home</div>
+    <div className="font-bold text-3xl text-lightviolet">Home</div>
   )
 }
 

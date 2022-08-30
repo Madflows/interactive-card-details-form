@@ -13,6 +13,9 @@ module.exports = {
         bkg: "#171819",
         muted: "#C9CBCF",
         accent: "#66CCC1",
+        lightviolet: "hsl(270, 3%, 87%)",
+        darkViolet: "hsl(279, 6%, 55%)",
+        veryDarkViolet: "hsl(278, 68%, 11%)",
       },
       dropShadow: {
         "text-sm": "1px 1px 0px rgba(0, 0, 0, 0.90)",
