@@ -1,6 +1,12 @@
+import FormSection from "../components/FormSection"
+
 const Home = () => {
   return (
-    <div className="font-bold text-3xl text-lightviolet">Home</div>
+    <div className="">
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full">
+        <FormSection />
+      </div>
+    </div>
   )
 }
 
