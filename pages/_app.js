@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Password Generator - Madflows.dev</title>
+        <title>Interactive Card Details Form - Madflows.dev</title>
       </Head>
       <Component {...pageProps} />
     </>
