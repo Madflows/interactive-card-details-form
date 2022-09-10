@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-/* REmove default spinner from input field */
+/* Remove default spinner from input field */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
